@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Girls Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      # Girls Learning Code: Intro to Hardware with micro:bit
+
+      ##Instructor Notes
+
+      * <a href="#slide2" target="_self">Notes for 3-Hour workshop (ages 9-12)</a>
+      * <a href="#slide3" target="_self">Notes for 2-Hour workshop (ages 6-8)</a>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      ##Instructor Notes (9-12)
+
+      ##Girls Learning Code: Intro to Hardware with Micro:Bit
+
+      <br>
+      #Key Programming Concepts
+      <ul>
+        <li> <strong>Variables</strong> are objects in computer science that store a value. These values can be incremented and changed. </li>
+        <li> <strong>Conditional Statements</strong> use a condition to decide whether an action is exectuted. If the condition is evaluated to true, some operation is performed.</li>
+        <li> <strong>Loops</strong> are a computer action that is repeated until a specified condition is reached.</li>
+        <li> <strong>Comments</strong> are lines of code that the computer skips over. These are for human eyes only. </li>
+      </ul>
+
+      #JavaScript syntax
+      <br>
+      Variables:
+      <pre><code>
+      //This is a comment, the computer doesn't read this!
+      let number = 1;
+      number += 1; //Add and saves 1 to number. The variable number now equals 2.
+
+      </code></pre>
+
+      If statements:
+      <pre><code>
+      if(a_condition == true){
+        do_something;
+      } else if(a_condition == false){
+        do_something_else;
+      }
+      </code></pre>
+      <br>
+
+      Loops:
+      <br><pre><code>
+      while(a_condition == true){
+        do_something;
+      }
+      </code></pre>
+      <br>
+
+      #Opening solution keys in micro:bit:
+
+      Solution keys and example projects for all the code alongs are provided! Take some time before the lesson to go through them. To open the solution keys, follow the steps below:
+
+      * Download the desired example project from GitHub
+      * Go to <a href="http://makecode.microbit.org/#"> MakeCode editor </a> and click on "import"
+      * Click on "import file" and choose the example project you would like to access
+
+      #Using Micro:bit
+
+      Micro:bit is a powerful tool that transitions students from block based programming into typed code. Micro:bit is a board that has LED's, buttons and sensors. Not familiar with Micro:bit? That's okay, because there are plenty of recourses available!
+      <ul>
+        <li> <a href="https://microbit.org/guide/features/"> Micro:bit Features</a> </li>
+        <li> <a href="https://makecode.microbit.org/reference"> Micro:bit reference sheet </a> </li>
+        <li> <a href="https://microbit.org/en/2017-03-07-javascript-block-resources/"> Simple projects to familiarize yourself with micro:bit </a></li>
+      </ul>
+
+      <br>
+      #Schedule
+
+      ![intro icon](framework/img/workshop/intro-icon.png) Introduction (30 min)
+
+      ![code icon](framework/img/workshop/code-icon.png) Code-Along with Blocks (30 min)
+
+      ![intro icon](framework/img/workshop/intro-icon.png) Introduction to JavaScript (10 min)
+
+      ![code icon](framework/img/workshop/code-icon.png) Code-Along with JavaScript (60 minutes)
+
+      ![laptop icon](framework/img/workshop/laptop-icon.png) Work Session (45 min)
+
+      <br>
+      #Materials + Special Requirements
+
+      * This activity requires a micro:bit board
+      * This activity requires a micro USB cable
+      * This activity requires WiFi
+      * This activity requires balls of paper
+      * This activity requires construction paper, markers, tape and ribbon/pipe cleaners
+
+      #Contingency
+      * <a href="https://makecode.microbit.org/offline-app"> Use the Make Code Offline Code Editor</a>
+
+      #Introduction
+
+      **Introductions (Slide 3):**
+      Ask learners to put their computers into "politeness mode" (closed halfway) before you begin.
+
+      Have mentors stand up and introduce themselves.
+
+      Have learners introduce themselves to their table groups and answer an icebreaker question, e.g. "If you could travel anywhere in the world, where would you want to go?"
+
+      Time permitting, play an icebreaker game such as <a href="https://www.thegamegal.com/2011/06/11/going-on-a-picnic/"> going on a picnic </a>with the learners.
+
+      **Coders' Code (slide 5):**
+
+      1. Ask for help: If you’re stuck or having trouble with something, work with the person beside you, or put up your hand to ask the instructor or one of our mentors for help.
+      1. Be present: We really want you to learn a lot in this workshop, so make sure to pay attention and follow along with the activities.
+      1. Try your best: Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!
+
+      **Today's project (slide 8):**
+
+      Ask: What does portable mean? (A: Able to be easily carried or moved)
+      <br>
+      Ask: What is an application? (A: A software program that runs on a computer. Examples of applications are mobile games, Microsoft Word, Fortnite.)
+
+      **What game is this? (slide 10):**
+      The game is Flappy Bird. Mention that after this workshop, learners will have all the skills nessessary to make this game!
+
+      **What is hardware (slide 11):**
+      Give learners a minute to discuss with their deskmates. If students are stumped give them an example of hardware to spark conversation.
+
+      **Examples of hardware (slide 13):**
+      Examples of hardware include, motherboard, RAM, CPU, computer screen, mouse, keyboard etc.
+
+      **What is software (slide 14):**
+      Give learners a minute to discuss with their deskmates what the word software refers to.
+
+      **Software is... (slide 15): **
+      <br> Ask: What is Scratch, Python and <strong style="color:#8b31e0;">JavaScript</strong>? (A: They are programming languages)
+
+      **Hardware + Software = Technology (slide 17):**
+      Explain that technology requires both software and hardware. Something needs to read the instructions you write. The relationship between hardware and software is like the relationship we have with our cars. The car does all the work getting us from one place to another, but we give it all the instructions on where to go. The car is the hardware and we are the software.
+
+      **What is a freethrow (slide 18):**
+      <br>
+      Ask: What sport uses freethrows? (A: Basketball)
+      <br>
+      Ask: What is a freethrow? (A: An unguarded shot at the basket, worth 1 point awarded to a player following a foul. Shot from the foul line - 4.5m from the basket)
+
+      **Basketbots (slide 22):**
+      <a href="https://www.canadalearningcode.ca/lessons/basketbots/"> Further resource on basketbots. </a> If basketballs aren't available, using crumpled balls of paper and a recycling bin is a good alternative.
+      <br> Ask a learner to come up and play basketbots with you to show learners how the game is supposed to work
+
+      **Making an algorithm (slide 24):**
+      Congratulate students on making an algorithm. Explain an algorithm is simply a series of instructions a computer uses to perform a task. Mention that just like in basketbots, computers need very specific instructions in order to perform a task.
+
+      **Micro:bit is... (slide 26): **
+      If students ask what JavaScript is, mention that we will cover this in depth later in the lesson
+
+      **Let's explore our micro:bits! (slide 27)**
+      Students should remove their micro:bit from the box and plug in the batteries.
+
+      **Sensors are... (slide 32): **
+      Sensors are a form of hardware. Adding many sensors together can give computers a perception of the world around them. Just like humans we use multiple senses at a time to know what is going on. ie) we use a combination of sight and touch to know when its snowing outside.
+
+      * The light sensor determines how bright the area around the board is
+      * Temperature sensor measures the temperature around the board in degrees celcius
+      * The motion sensor or accelerometer determines if the board is moving
+      * The compass determines which direction the board is facing
+
+      #Animation Code-Along
+      * <a href="https://docs.google.com/document/d/1UtDnqac4eJkUMHi31272RovhshPihh0_lgW7GdIGYKI/edit?usp=sharing">Solution Key is available here</a>
+      * Example Project (Animation-Example.hex) is available in the micro:bit folder
+
+      #Intro to JavaScript
+
+      **What is JavaScript? (slide 38)**
+      Explain that JavaScript is a very heavily used in making websites interactive.
+
+      **Some Careers that use code (slide 42)**
+      Machines that are capable of controlling themselves without the need for direct human control are referred to as autonomous.
+
+      **Lets use JavaScript (slide 43)**
+
+      * Open the animation project you were working on earlier in MakeCode
+      * In the top left, click on JavaScript rather then blocks
+      * Ask: What differences do you see between JavaScript and Blocks?
+      * Ask: What lines make the smiley face?
+      * Ask: What line checks if the button is pressed?
+      * Ask: How do we know a block of code is inside an other? (A: {} and indents). This is a good time to explain all the JavaScript syntax such as when to put a curly bracket and when to indent. Good to note that semi-colons are often used in JavaScript to seperate multiple lines.
+      * Show learners where the semi colon and parentheses keys are on their computers
+      * Show learners that if you type basic. or input. a menu of actions appear, similar to how learners can find what they are looking for when using blocks.
+      * Have students try creating a different animation when button A is pressed but this time using JavaScript. The code for this should be identical except the '#' and '.' should be in different places.
+
+      **Taking action (slide 44 & 45):**
+      Play the video of <a href="https://microbit.org/global-challenge/winners/"> micro:bit global challenge winners. </a> Encourage students to discuss in their group real world problems that they believe a micro:bit could solve. Problems can include climate change, global water storage, food waste etc.
+
+      **Who knows how many steps they take a day? (slide 47):**
+      Ask students if they know how many steps they take daily? Reveal Canada is a fairly inactive country. Ask students if having a daily step goal would encourage them to be more active? Ask students how we can use a micro:bit to tackle this problem, hoping to get the suggestion of a step counter.
+
+      **Let's make a step counter with Micro:bit (slide 48):**
+      Ask learners what a fit bit is (A: A smart watch which enourages people to live healthier lives. One of its features is a step counter!)
+
+      **Acceleration is... (slide 51):**
+      Acceleration is a term used to define a <strong> change </strong> in speed. Acceleration is what causes you to lurch forward when a car brakes and pushes you into your seat when a car accelerates. Acceleration is also the reason you slide around in your seat when a car turns.
+
+      * Ask: What are some examples of acceleration? (A: A ball being dropped, jumping, walking etc.)
+      * Ask: What do you think micro:bits accelerometer does? (A: Measures acceleration)
+      * Ask: How could we use acceleration to make a step counter? (A: Our foot accelerates everytime we take a step! When the acceleration is above a certain number count it as a step)
+
+      <br>
+      #Code-Along JavaScript
+      * Either continue working on the project previously or go to <a href="https://makecode.microbit.org/#">MakeCode Editor </a> and click on a new project.
+      * <a href="https://docs.google.com/document/d/1zWIYyoMXOeXEYTTbNSrk7eqi6_yYjGycvgUTR0ECVAw/edit?usp=sharing">Solution Key is available here</a>
+      * Example project (Steps-Code.hex) is available in the micro:bit folder
+      * <a href="https://docs.google.com/document/d/1lwlYEY1GQhwKqI3bmMLcAQZfSN74WC52-BZCfoJFIQo/edit">Additional step counter resource can be found here</a>
+      <br>
+      <br>
+      #Work Session (slide 55)
+      * Attach your micro:fits to your leg. Craft a strap that secures the micro:bit. Don't forget about the battery pack!
+      * Before you go walk outside its important to know how hot/cold outside. Add a temperature display!
+      * Sometimes, people get lost when they are walking. Add a compass when you press B so you never get lost. If students are very stumped on this one, code the first few conditional statements with them. Drawing a circle with the angles should help as well.
+      * Example Projects (Temperature-Code.hex and Compass-Code.hex) are available in the micro:bit folder.
+      * If learners are really struggling with JavaScript, give them the option to switch back to using blocks
+
+      <br>
+      #Demos (slide 56)
+      * Each pair of learners should have a chance to come to the front of the room and talk about their project
+      * Learners should bring there micro:bits and walk audience through any modifications or additonal features they have added
+      * Learners can also mention what they learned during the workshop and what their favourite part was!
+      * Recommended to give learners 2-3 minutes to figure out what they would like to say during their demos before calling up the first pair
+      * Remind learners to speak clearly and to the audience
+
+     </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      ##Instructor Notes (6-8)
+
+      ##Girls Learning Code: Intro to Hardware with Micro:Bit
+
+      <br>
+      #Key Programming Concepts
+      <ul>
+        <li> <strong>Variables</strong> are objects in computer science that store a value. These values can be incremented and changed. </li>
+        <li> <strong>Conditional Statements</strong> use a condition to decide whether an action is exectuted. If the condition is evaluated to true, some operation is performed.</li>
+        <li> <strong>Loops</strong> are a computer action that is repeated until a specified condition is reached.</li>
+        <li> <strong>Comments</strong> are lines of code that the computer skips over. These are for human eyes only. </li>
+      </ul>
+
+      #Opening example projects in micro:bit:
+
+      Solution keys and example projects for all the code alongs are provided! Take some time before the lesson to go through them. To open the solution keys, follow the steps below:
+
+      * Download the desired example project from GitHub
+      * Go to <a href="http://makecode.microbit.org/#"> MakeCode editor </a> and click on "import"
+      * Click on "import file" and choose the example project you would like to access
+      * Ensure the toggle at the top of the screen is set to "blocks"
+
+      #Using Micro:bit
+
+      Micro:bit is a powerful tool that transitions students from block based programming into typed code. Micro:bit is a board that has LED's, buttons and sensors. Not familiar with Micro:bit? That's okay, because there are plenty of recourses available!
+      <ul>
+        <li> <a href="https://microbit.org/guide/features/"> Micro:bit Features</a> </li>
+        <li> <a href="https://makecode.microbit.org/reference"> Micro:bit reference sheet </a> </li>
+        <li> <a href="https://microbit.org/en/2017-03-07-javascript-block-resources/"> Simple projects to familiarize yourself with micro:bit </a></li>
+      </ul>
+
+      <br>
+      #Schedule
+
+      ![intro icon](framework/img/workshop/intro-icon.png) Introduction (30 min)
+
+      ![code icon](framework/img/workshop/code-icon.png) Code-Along (60 min)
+
+      ![laptop icon](framework/img/workshop/laptop-icon.png) Work Session (30 min)
+
+      <br>
+      #Materials + Special Requirements
+
+      * This activity requires a micro:bit board
+      * This activity requires a micro USB cable
+      * This activity requires WiFi
+      * This activity requires construction paper, markers, tape and ribbon/pipe cleaners
+
+      #Contingency
+      * <a href="https://makecode.microbit.org/offline-app"> Use the Make Code Offline Code Editor</a>
+
+      #Introduction
+
+      **Introductions (Slide 3):**
+      Ask learners to put their computers into "politeness mode" (closed halfway) before you begin.
+
+      Have mentors stand up and introduce themselves.
+
+      Have learners introduce themselves to their table groups and answer an icebreaker question, e.g. "If you could travel anywhere in the world, where would you want to go?"
+
+      Time permitting, play an icebreaker game such as <a href="https://www.thegamegal.com/2011/06/11/going-on-a-picnic/"> going on a picnic </a>with the learners.
+
+      **Coders' Code (slide 5):**
+
+      1. Ask for help: If you’re stuck or having trouble with something, work with the person beside you, or put up your hand to ask the instructor or one of our mentors for help.
+      1. Be present: We really want you to learn a lot in this workshop, so make sure to pay attention and follow along with the activities.
+      1. Try your best: Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!
+
+      **What jobs do you think require coding? (slide 8)**
+      Ask: What jobs do you think require knowing how to code? Follow up by asking why do you think a fashion designer needs to know how to code?
+
+      **Some Careers that use code (slide 9)**
+      Machines that are capable of controlling themselves without the need for direct human control are referred to as autonomous.
+
+      **Today's project (slide 10):**
+
+      Ask: What does portable mean? (A: Able to be easily carried or moved)
+      <br>
+      Ask: What is an application? (A: A software program that runs on a computer. Examples of applications are mobile games, Microsoft Word, Fortnite.)
+
+      **What game is this? (slide 12):**
+      The game is Flappy Bird. Mention that after this workshop, learners will have all the skills nessessary to make this game!
+
+      **What is hardware (slide 13):**
+      Give learners a minute to discuss with their deskmates. If students are stumped give them an example of hardware to spark conversation.
+
+      **Examples of hardware (slide 15):**
+      Examples of hardware include, motherboard, RAM, CPU, computer screen, mouse, keyboard etc.
+
+      **What is software (slide 16):**
+      Give learners a minute to discuss with their deskmates what the word software refers to.
+
+      **Software is... (slide 17):**
+      <br> Ask: What is Scratch, Python and JavaScript? (A: They are programming languages)
+
+      **Hardware + Software = Technology (slide 19):**
+      Explain that technology requires both software and hardware. Something needs to read the instructions you write. The relationship between hardware and software is like the relationship we have with our cars. The car does all the work getting us from one place to another, but we give it all the instructions on where to go. The car is the hardware and we are the software.
+
+      **Let's explore our micro:bits! (slide 22)**
+      Students should remove their micro:bit from the box and plug in the batteries. Ask mentors to help the learners.
+
+      **Sensors are... (slide 27): **
+      Sensors are a form of hardware. Adding many sensors together can give computers a perception of the world around them. Just like humans we use multiple senses at a time to know what is going on. ie) we use a combination of sight and touch to know when its snowing outside.
+
+      * The light sensor determines how bright the area around the board is
+      * Temperature sensor measures the temperature around the board in degrees celcius
+      * The motion sensor or accelerometer determines if the board is moving
+      * The compass determines which direction the board is facing
+
+      #Animation Code-Along
+      * <a href="https://docs.google.com/document/d/1UtDnqac4eJkUMHi31272RovhshPihh0_lgW7GdIGYKI/edit?usp=sharing">Solution Key is available here</a>
+      * Example Project (Animation-Example.hex) is available in the micro:bit folder
+
+      **How many steps? (slide 34):**
+      Ask students if they know how many steps they take daily? Reveal Canada is a fairly inactive country. Ask students if having a daily step goal would encourage them to be more active? Ask students how we can use a micro:bit to tackle this problem, hoping to get the suggestion of a step counter.
+
+      **Before we begin a note about acceleration is... (slide 36):**
+      Acceleration is a term used to define a <strong> change </strong> in speed. Acceleration is what causes you to lurch forward when a car brakes and pushes you into your seat when a car accelerates. Acceleration is also the reason you slide around in your seat when a car turns.
+
+      * Ask: What are some examples of acceleration? (A: A ball being dropped, jumping, walking etc.)
+      * Ask: What do you think micro:bits accelerometer does? (A: Measures acceleration)
+      * Ask: How could we use acceleration to make a step counter? (A: Our foot accelerates everytime we take a step! When the acceleration is above a certain number count it as a step)
+
+      **Let's make a Micro:fit (slide 40):**
+      Ask learners what a fit bit is (A: A smart watch which enourages people to live healthier lives. One of its features is a step counter!)
+      <br>
+      <br>
+      #Code-Along Micro:fit
+      * Either continue working on the project previously or go to <a href="https://makecode.microbit.org/#">MakeCode Editor </a> and click on a new project.
+      * <a href="https://docs.google.com/document/d/17_y6ZEJc45cBi3jDlhTXEyIYfIBcYXo-EmhPfGV7pWU/edit?usp=sharing">Solution Key is available here</a>
+      * Example project (Steps-Code.hex) is available in the micro:bit folder
+      * <a href="https://docs.google.com/document/d/1lwlYEY1GQhwKqI3bmMLcAQZfSN74WC52-BZCfoJFIQo/edit">Additional step counter resource can be found here</a>
+
+      <br>
+      #Work Session (slide 41)
+      * Students should work to create there straps
+      * Remind students there strap must also accomodate there battery box
+      * Do not allow students to use glue for this activity
+
+      <br>
+      #Demos (slide 42)
+      * Each pair of learners should have a chance to come to the front of the room and talk about their project
+      * Learners should bring there micro:bits and walk audience through any modifications or additonal features they have added
+      * Learners can also mention what they learned during the workshop and what their favourite part was!
+      * Recommended to give learners 2-3 minutes to figure out what they would like to say during their demos before calling up the first pair
+      * Remind learners to speak clearly and to the audience
+
+     </script>
+  </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
