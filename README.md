@@ -7,15 +7,15 @@ DECEMBER'S THEME IS: Take Action!
 
 See slide 9 for suggestions on how learners can incorporate this month’s theme into their projects.
 
-# Kids Learning Code: Intro to Hardware with micro:bit
+# Girls Learning Code: Intro to Hardware with micro:bit
 
 ## Quick Links
 
-Preview Instructor Notes: https://ladieslearningcode.github.io/klc-microbit/notes-en.html
+Preview Instructor Notes: https://ladieslearningcode.github.io/glc-microbit/notes-en.html
 
-Preview 3-Hour Slides (ages 9-12): https://ladieslearningcode.github.io/klc-microbit/slides-en.html
+Preview 3-Hour Slides (ages 9-12): https://ladieslearningcode.github.io/glc-microbit/slides-en.html
 
-Preview 2-Hour Slides (ages 6-8): https://ladieslearningcode.github.io/klc-microbit/slides-en-2hours.html
+Preview 2-Hour Slides (ages 6-8): https://ladieslearningcode.github.io/glc-microbit/slides-en-2hours.html
 
 # ATTRIBUTIONS:
 
@@ -46,15 +46,15 @@ Le thème du mois de décembre : Agissons!
 
 Consultez la diapositive n° 9 pour donner à votre groupe des idées pour intégrer le thème à leur projet. Les apprenantes ont le choix d'intégrer le thème à leur projet ou non.
 
-# Jeunesse en programmation : Intro au matériel informatique avec micro:bit
+# Filles en programmation : Intro au matériel informatique avec micro:bit
 
 ## Liens rapides
 
-Aperçu des notes de la formatrice : https://ladieslearningcode.github.io/klc-microbit/notes-fr.html
+Aperçu des notes de la formatrice : https://ladieslearningcode.github.io/glc-microbit/notes-fr.html
 
-Aperçu des diapositives, atelier de 3 heures (pour les 9 à 12 ans) : https://ladieslearningcode.github.io/klc-microbit/slides-fr.html
+Aperçu des diapositives, atelier de 3 heures (pour les 9 à 12 ans) : https://ladieslearningcode.github.io/glc-microbit/slides-fr.html
 
-Aperçu des diapositives, atelier de 2 heures (pour les 6 à 8 ans) : https://ladieslearningcode.github.io/klc-microbit/slides-fr-2heures.html
+Aperçu des diapositives, atelier de 2 heures (pour les 6 à 8 ans) : https://ladieslearningcode.github.io/glc-microbit/slides-fr-2heures.html
 
 # ATTRIBUTIONS :
 
